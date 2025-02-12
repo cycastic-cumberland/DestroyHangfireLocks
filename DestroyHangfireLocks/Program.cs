@@ -6,7 +6,7 @@ public static class Program
 {
     public static async Task Main(string[] args)
     {
-        if (args.Length != 2)
+        if (args.Length != 1)
         {
             Console.WriteLine("Usage: ./DestroyHangfireLocks <postgres_connection_string>");
             return;
